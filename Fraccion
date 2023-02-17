@@ -1,0 +1,13 @@
+from fractions import Fraction
+
+a1 = Fraction(1, 5)
+seq = [a1]
+
+for n in range(2, 11):
+    an = a1 + (n - 1) * Fraction(6, 10)
+    seq.append(an)
+
+seq_formatted = [str(a) for a in seq]
+print(seq_formatted)
+
+#sumaar a 1/5 3/5 10 veces 
