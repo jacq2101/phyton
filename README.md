@@ -10,14 +10,11 @@
 
 🎓 **Aprende mientras te diviertes:** ¡La programación también puede ser divertida! Los ejercicios están diseñados para ser retadores y estimulantes, pero también para ser divertidos y entretenidos.
 
-## Ejercicios disponibles 
-<p align="center">
-  <img height="32" src="https://img.shields.io/badge/Python-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/>
-</p>
+## Ejercicios disponibles  <img height="40" src="https://img.shields.io/badge/Python-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/>
 
 | Nombre | Descripción |
 | --- | --- |
-| Ejercicio 1 | Este ejercicio se centra en el uso de listas y bucles para analizar y visualizar datos de ventas. |
+| Ejercicio 1 | Este ejercicio da los proximos 6 meses en formato YYMM. |
 | Ejercicio 2 | Este ejercicio se centra en el uso de funciones y módulos para procesar datos financieros. |
 | Ejercicio 3 | Este ejercicio se centra en el uso de pandas y matplotlib para analizar y visualizar datos de mercado. |
 
