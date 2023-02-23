@@ -1,14 +1,24 @@
-# phyton 🐍
-Ejercicios
-Colocar una fecha en ⌛️ formato AAMM y te regrese los próximos 6 meses
-Ejemplo
+# Ejercicios de Python para Negocios 🐍💼
 
-Dame una fecha:  2206
-Resultado
+¡Bienvenido! Esta carpeta contiene una serie de ejercicios de Python que te ayudarán a mejorar tus habilidades en programación y a aplicarlas en el contexto de los negocios. A continuación, te explicamos algunos de los beneficios que encontrarás al trabajar con estos ejercicios:
 
-2207
-2208
-2209
-2210
-2212
-2301
+## Beneficios
+
+👨‍💻 **Mejora tus habilidades de programación:** Los ejercicios están diseñados para desafiarte a pensar y escribir código Python de manera efectiva y eficiente.
+
+💼 **Aplica tus habilidades en un contexto empresarial:** Los ejercicios están diseñados para simular situaciones comunes que encontrarás en el mundo empresarial, lo que te permitirá aplicar tus habilidades de programación en contextos reales.
+
+🎓 **Aprende mientras te diviertes:** ¡La programación también puede ser divertida! Los ejercicios están diseñados para ser retadores y estimulantes, pero también para ser divertidos y entretenidos.
+
+## Ejercicios disponibles 
+<p align="center">
+  <img height="32" src="https://img.shields.io/badge/Python-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/>
+</p>
+
+| Nombre | Descripción |
+| --- | --- |
+| Ejercicio 1 | Este ejercicio se centra en el uso de listas y bucles para analizar y visualizar datos de ventas. |
+| Ejercicio 2 | Este ejercicio se centra en el uso de funciones y módulos para procesar datos financieros. |
+| Ejercicio 3 | Este ejercicio se centra en el uso de pandas y matplotlib para analizar y visualizar datos de mercado. |
+
+¡Diviértete y no dudes en contactarme si tienes alguna pregunta o comentario!
