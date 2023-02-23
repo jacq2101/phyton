@@ -19,3 +19,6 @@
 | Ejercicio 3 | Este ejercicio se centra en el uso de pandas y matplotlib para analizar y visualizar datos de mercado. |
 
 ¡Diviértete y no dudes en contactarme si tienes alguna pregunta o comentario!
+
+
+<h3 align="center"><img src="https://media.giphy.com/media/cckwsedtCddKg/giphy.gif" alt="I💚Python" width="150" height="150" style="display:block;margin:auto;"><p>I💙🐍</p></h3>
