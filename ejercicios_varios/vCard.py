@@ -1,36 +1,15 @@
 import csv
-import vobject
 
-# Abrir archivo CSV con los datos
-# ruta_archivo = "C:/Usuarios/TuUsuario/Documentos/empleados.csv"
-with open('datos.csv', newline='') as csvfile:
-    reader = csv.DictReader(csvfile)
-    for row in reader:
-        # Crear objeto vCard
-        card = vobject.vCard()
+with open('datos.csv') as csv_file:
+    csv_reader = csv.DictReader(csv_file)
+    for row in csv_reader:
+        first_name = row['\ufeffNombre']
+        last_name = row['Apellido']
+        phone = row['Celular']
+        email = row['Email']
+        work_title = row['Puesto de trabajo']
+        office_address = f"{row['Calle Oficina']}, {row['Colonia']}, {row['Ciudad']}, {row['Estado']}, {row['Codigo Postal']}, {row['País']}"
 
-        # Agregar nombre y apellido
-        card.add('n')
-        card.n.value = vobject.vcard.Name(family=row['Apellido'], given=row['Nombre'])
-
-        # Agregar teléfono celular
-        card.add('tel')
-        card.tel.type_param = 'cell'
-        card.tel.value = row['Celular']
-
-        # Agregar email
-        card.add('email')
-        card.email.value = row['email']
-
-        # Agregar puesto
-        card.add('title')
-        card.title.value = row['Puesto']
-
-        # Agregar ciudad
-        card.add('adr')
-        card.adr.type_param = 'work'
-        card.adr.value = vobject.vcard.Address(city=row['Ciudad'])
-
-        # Guardar archivo vCard
-        with open(f"{row['Nombre']}_{row['Apellido']}.vcf", 'w') as f:
-            f.write(card.serialize())
+        vcf_file_name = f"{first_name}_{last_name}.vcf"
+        with open(vcf_file_name, 'w') as vcf_file:
+            vcf_file.write(f"BEGIN:VCARD\nVERSION:3.0\nN:{last_name};{first_name};;;\nFN:{first_name} {last_name}\nORG:\nTEL;TYPE=CELL:{phone}\nEMAIL;TYPE=PREF,INTERNET:{email}\nTITLE:{work_title}\nADR;TYPE=WORK:;;{office_address}\nEND:VCARD\n")
